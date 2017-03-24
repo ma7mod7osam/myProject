@@ -16,7 +16,7 @@ app.use((req, res, next) => {
   //   if(err) {
   //   console.log('Sorry .. Unable to append to server.log ');
   //   }
-  });
+  // });
   next();
 });
 hbs.registerPartials(__dirname + '/views/partials');
