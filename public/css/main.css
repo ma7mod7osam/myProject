@@ -1,0 +1,26 @@
+body {
+background: url(https://images.unsplash.com/photo-1482203460252-be3456f7c8d8?dpr=1&amp);
+background-size: cover;
+background-position: center;
+transition: background 1.5s linear;
+-webkit-backface-visibility: hidden;
+webkit-transition: background-image 1.5s linear;
+-webkit-transform:translate3d(0,0,0);
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    /*font-family: "Lato";*/
+    color: black;
+}
+#mainText{
+  text-align: center;
+  margin-top: 150px;
+}
+h1{
+  font-size : 5em;
+}
+p{
+  font-size : 1.5em;
+}

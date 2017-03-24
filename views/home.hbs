@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    {{> header}}
+   <div id="mainText" class="ui container">
+        <h1>Be Notic With Ur weather </h1>
+        <p>Here u can find the weather of ur city updated every minute
+           and when that u should carry ur umprealla or stay at home</p>
+        <form artion="/" method="post">
+             <div class="ui huge action input">
+                  <input class="large" name="city" type="text" placeholder="Enter a City">
+                  <button class="ui teal right labeled icon button">    Submit</button>
+             </div>
+        </form>
+   </div>
+      {{> footer}}
